@@ -1,0 +1,481 @@
+.hero-image{
+  height: 26rem;
+}
+.nav-sign{
+  height:40px;
+}
+.nav-left{
+  display: flex;
+  align-items: center;
+  gap:14px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+*{
+  font-family: 'Inter', sans-serif;
+}
+body{
+  margin:0;
+  padding: 0;
+  overflow-x:hidden;
+  
+
+
+}
+main{
+  padding-left: 60px;
+  padding-right: 60px;
+
+  
+}
+.login{
+  border-color: black;
+  
+  border: solid;
+  background: transparent;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.normal{
+  color: black;
+  text-decoration: none;
+}
+.forward{
+  background-color: #DF4948;
+  border: none;
+  color: white;
+  padding: 8px;
+
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 200px;
+
+}
+.details{
+  border:solid;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding: 8px;
+  background-color: transparent;
+  border-color: #DF4948;
+  color: #DF4948;
+  width: 200px;
+}
+.text-section{
+  display: flex;
+  width:50%;
+  flex-direction: column;
+  gap:12px;
+
+}
+.font.big{
+  font-size: 3.2rem;
+}
+.index-info{
+  display: flex;
+  align-items: center;
+  gap:16px;
+}
+.cards{
+  display: flex;
+  padding: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+
+}
+.card-sec{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-sec>span{
+  padding-top: 20px;
+}
+.icon{
+  height:120px;
+}
+.home{
+  display: flex;
+  gap: 20px;
+
+}
+.home-main{
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  ;
+
+
+}
+.home>img{
+  width:30%;
+}
+.home>span{
+  width:30%;
+  font-family: 'Play', sans-serif;
+  
+  
+
+}
+.footer{
+  display: flex;
+  width: 100vw;
+  height:12rem;
+  align-self: flex-end;
+
+
+    padding-top: 10px;
+
+ 
+}
+.login-back{
+  height:30rem;
+
+}
+
+
+.login-form{
+  display: flex;
+  
+  width:280px;
+  padding-left: 40px;
+
+  
+
+  
+  flex-direction: column;
+  gap:12px;
+}
+.error{
+  margin: 0;
+  color:red;
+  font-size: 12px;
+}
+.login-form > input{
+  background-color: #EEEEEE;
+  border: none;
+  font-size: 1rem;
+  padding: 12px;
+ 
+}
+
+.signup-button{
+  background-color:#DF4948; ;
+  
+  display: flex;
+  align-self: flex-end;
+  padding: 10px;
+  justify-content: center;
+  color: white;
+  border: none;
+  font-weight: bold;
+ 
+
+  
+}
+.selectdiv {
+  position: relative;
+  /*Don't really need this just for demo styling*/
+  
+  float: left;
+  min-width: 200px;
+  margin: 50px 1%;
+}
+.register {
+  position: relative;
+  /*Don't really need this just for demo styling*/
+  
+  float: left;
+  min-width: 200px;
+  margin: 10px 1%;
+}
+.register:after {
+  content: '∇';
+  font: 17px "Consolas", monospace;
+  color: #333;
+  border: none;
+  right: 11px;
+  /*Adjust for position however you want*/
+  
+  top: 18px;
+  padding: 0 0 2px;
+
+  /*left line */
+  
+  position: absolute;
+  pointer-events: none;
+}
+.register select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add some styling */
+  
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  float: right;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #ffffff;
+  background-color: #e97777;
+  background-image: none;
+  border: 1px solid #cccccc;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+
+
+
+
+select::-ms-expand {
+  display: none;
+  }
+  .selectdiv:after {
+    content: '∇';
+    font: 17px "Consolas", monospace;
+    color: #333;
+    border: none;
+    right: 11px;
+    /*Adjust for position however you want*/
+    
+    top: 18px;
+    padding: 0 0 2px;
+
+    /*left line */
+    
+    position: absolute;
+    pointer-events: none;
+  }
+  .selectdiv select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Add some styling */
+    
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: 50px;
+    float: right;
+    margin: 5px 0px;
+    padding: 0px 24px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #ffffff;
+    background-color: #e97777;
+    background-image: none;
+    border: 1px solid #cccccc;
+    -ms-word-break: normal;
+    word-break: normal;
+  }
+.remove-button{
+  background-color:black;
+  align-self: flex-end;
+  padding: 10px;
+  color: white;
+  border: none;
+  font-weight: bold;
+  align-self: center;
+ 
+
+  
+}
+.profile-button{
+  color: rgb(248, 45, 45);
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  border: none;
+  padding: 6px;
+  padding-left:10px;
+  padding-right:10px;
+  text-decoration: none;
+}
+.overall{
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+.homework-container{
+  display: grid;
+  
+
+  grid-template-columns: 1fr 1fr ;
+  grid-column-gap: 4px;
+  grid-row-gap: 40px;
+
+}
+.msain{
+  display: flex;
+  width:100%;
+  position:fixed;
+  z-index:-1;
+}
+.m{
+  position: relative;
+  width: 100%;
+
+  margin-top: -4px;
+  
+}
+nav{
+  position: relative;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  background-color: #FEEFDC;}
+  .detail-line{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    align-self: flex-end;
+    gap:10px;
+
+  }
+  .detail{
+    color:#DF4948;
+  }
+  .arrow{
+    height: 40px;
+  }
+.logi{
+  background-color:#F6E19F;
+  height: 100vh;
+  
+}
+.active{
+  background: #DF4948;
+  color: white;
+  padding: 5px;
+  padding-left:10px;
+  padding-right:10px;
+  
+
+}
+.non-active{
+  color: black;
+  text-decoration: none;
+}
+.non-active:hover{
+  background-color: #ea8a8a;
+  text-decoration: underline;
+  color: white;
+  padding: 5px;
+  padding-left:10px;
+  padding-right:10px;
+  transition: 0.25s ;
+  
+}
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji');
+
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Baloo Paaji', cursive;
+  width: 100vw;
+  background-image: url('/adminb.jpg');
+  height: 100vh;
+  
+  color: #3E3E3E;
+}
+
+.admin {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 400px;
+  background-color: #e7a0a0;
+  border-radius: 50px;
+  position: relative;
+}
+  .admin-lock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 80px;
+
+    height: 80px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 5px solid  #DF4948;
+    right: -40px;
+    top: 50%;
+    margin-top: -40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+    color: #3E3E3E;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+  }
+    .admin-lock:hover {
+      background-color:#ea8a8a;
+      color: #FFFFFF;
+    }
+  
+
+.admin-content {
+    border-radius: 50px;
+    width: 100%;
+    margin: 30px 70px 30px 30px;
+}
+    .admin-content-header {
+      margin-top: 0;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      
+    }
+      .form>input {
+        margin-bottom: 20px;
+        outline: none;
+        padding: 10px;
+        border: 0;
+        background-color: #E1E1E1;
+        border-radius: 5px;
+        font-family: 'Baloo Paaji', cursive;
+        width: 100%;
+        box-sizing: border-box;
+        transition: box-shadow 0.15s;
+      }
+        .form>input:focus {
+          box-shadow: 0 0 0 3px  #DF4948;;
+        }
+          .form-input::placeholder {
+            opacity: 0;
+          }
+      
+    
+      
+    
+  
+
